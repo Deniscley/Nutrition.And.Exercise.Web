@@ -1,11 +1,11 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import DashboardIndexPage from "../src/pages/index";
+import Home from "../src/app/page";
 
 describe("Dashboard page", () => {
   it("Should render propoerly", () => {
-    render(<DashboardIndexPage />);
+    render(<Home />);
 
     const header = screen.getByRole("heading");
     const headerText = "Hello World";
