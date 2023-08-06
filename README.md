@@ -1,34 +1,130 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Denis Laureano - Nutrição & Exercício
 
-First, run the development server:
+Projeto voltado para divulgação e venda de serviço no setor de nutrição e atividade física.
+
+
+![Logo](https://scontent.fdiq5-1.fna.fbcdn.net/v/t39.30808-6/285450801_5146798808771110_3230946504021191872_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeH1aDZIcqMNrWzDvL8VW_QqlehRXdpHUCSV6FFd2kdQJDIkEWP9k1dXH8hqkrl3Ajs0qA6khkzdn8fV83_35Tiy&_nc_ohc=1k38FL-Oms4AX80iMDB&_nc_ht=scontent.fdiq5-1.fna&oh=00_AfB6pXz1FqjDGAgT38zUDcGjkjqe2_BBHYvuyHivC9rqog&oe=64D41010)
+
+
+## Autores
+
+- [@DeniscleyMarfran](https://github.com/Deniscley)
+
+
+## Usado por
+
+Esse projeto é usado pelas seguintes empresas:
+
+- [Denis Laureano - Nutrição & Exercício](https://www.instagram.com/nutri_denislaureano/)
+
+
+## Funcionalidades
+
+- Preview em tempo real
+- Modo tela cheia
+- Multiplataforma
+
+
+## Stack utilizada
+
+**Front-end:** React, NextJs, TypeScript, HTML5, CSS3
+
+**Back-end:** C# Net, SQLServer
+
+
+## Variáveis de Ambiente
+
+Para rodar esse projeto, você vai precisar adicionar a seguinte variável de ambiente no seu appsettings referente ao ambiente que está sendo utilizado.
+
+`ConnectionStrings`
+
+
+## Rodando localmente
+
+Clone o Nutrition.And.Exercise.Web, também é necessário clonar o projeto Nutrition.And.Exercise.Api
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone https://github.com/Deniscley/Nutrition.And.Exercise.Web
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre no diretório do projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd Nutrition.And.Exercise.Web
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Instale as dependências (Projeto Front-end)
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Inicie o servidor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+Primeiro, execute o servidor de desenvolvimento:
+  npm run dev
+  npm run test
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Abra http://localhost:3000 com seu navegador para ver o resultado.
 
-## Deploy on Vercel
+Você pode começar a editar a página modificando app/page.tsx. A página é atualizada automaticamente conforme você edita o arquivo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto usa next/font para otimizar e carregar automaticamente Inter, uma fonte personalizada do Google.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Inicie a API (Após configurado as Variáveis de Ambiente como citado acima)
+```bash
+    A maneira de executar um programa depende de onde você começa, do tipo de programa e de você desejar executar no depurador. No caso mais simples, para compilar e executar um projeto aberto no Visual Studio:
+
+Pressione F5, escolha Depurar>Iniciar com depuração no menu do Visual Studio ou selecione a seta verde Iniciar e o nome do projeto na barra de ferramentas do Visual Studio.
+Ou, para executar sem depurar, pressione Ctrl+F5 ou escolha Depurar>Iniciar sem depuração no menu do Visual Studio.
+```
+
+
+## Rodando os testes
+
+Para rodar os testes, rode o seguinte comando
+
+```bash
+  npm run test
+```
+
+
+## Suporte
+
+Para suporte, mande um email para deniscleymaf@outlook.com.
+
+
+## Etiquetas
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deniscleymarfran/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/DeniscleyMAF)
+
+
+
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de deniscleymaf@outlook.com
+
+
+## FAQ
+
+#### Esse projeto é OpenSource ?
+
+Projeto de uso proprietário
+
+
