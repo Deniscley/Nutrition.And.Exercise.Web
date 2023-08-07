@@ -2,7 +2,7 @@
   "material-icon-theme.folders.associations": {
     "state": "database"
   },
-  "editor.formatOnSave": true,
+  // "editor.formatOnSave": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -10,7 +10,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "eslint.autoFixOnSave": true
+    "source.fixAll.eslint": true
   },
   "eslint.validate": [
     "javascript",
