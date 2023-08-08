@@ -29,7 +29,8 @@
     "**/*.tsx",
     "types.d.ts",
     ".next/types/**/*.ts",
-    "__tests__/page.test.tsx"
+    "__tests__/page.test.tsx",
+    "src/pages/routes.tsx"
   ],
   "exclude": ["node_modules"]
 }
