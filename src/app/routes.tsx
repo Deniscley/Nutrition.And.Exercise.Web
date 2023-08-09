@@ -1,11 +1,4 @@
 import Link from "next/link";
-import About from "./about";
-import Contact from "./contact";
-import Gallery from "./gallery";
-import HomePage from "./homePage";
-import NotFound from "./notFound";
-import Plans from "./plans";
-import Trainers from "./trainers";
 
 export default function Routes() {
   return (
