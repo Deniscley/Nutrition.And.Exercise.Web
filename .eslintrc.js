@@ -9,6 +9,7 @@ module.exports = {
     "airbnb",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
+    "plugin:storybook/recommended"
   ],
   globals: {
     Atomics: "readonly",
