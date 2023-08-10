@@ -1,4 +1,4 @@
-import Routes from "@/app/routes";
+import Routes from "@/state/routes";
 import React from "react";
 
 export default function Home() {
