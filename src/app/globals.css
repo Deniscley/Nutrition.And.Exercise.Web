@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.nav__container {
+  margin: 5rem 0 3rem 0;
+}

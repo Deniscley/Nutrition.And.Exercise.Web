@@ -1,6 +1,6 @@
 {
   "material-icon-theme.folders.associations": {
-    "state": "database"
+    "data": "database"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

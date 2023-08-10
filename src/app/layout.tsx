@@ -1,8 +1,8 @@
-import "./globals.css";
+"use client";
+// import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <nav>
+          <div className="container nav__container">
+            <Link href="/homePage">
+              <Image
+                src="/logo.png"
+                width={100}
+                height={100}
+                alt="Picture of the author"
+              />
+            </Link>
+            <a href=""></a>
+          </div>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }
