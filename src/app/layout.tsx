@@ -1,5 +1,5 @@
 "use client";
-// import "./globals.css";
+import "./globals.css";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -19,9 +19,9 @@ export default function RootLayout({
       <body>
         <nav>
           <div className="container nav__container">
-            <Link href="/homePage">
+            <Link href="./homePage">
               <Image
-                src="/logo.png"
+                src="/logo_Branco.png"
                 width={100}
                 height={100}
                 alt="Picture of the author"
