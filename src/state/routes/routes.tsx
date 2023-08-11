@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Routes() {
   return (
-    <ul>
+    <ul className="nav_links">
       <li>
-        <Link href="/homePage">Home Page</Link>
+        <Link href="/">Home</Link>
       </li>
       <li>
         <Link href="/about">About</Link>
