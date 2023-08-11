@@ -1,8 +1,7 @@
-import Routes from "@/state/routes";
 import React from "react";
 
 export default function Home() {
-  return <Routes />;
+  return <div>#Seja bem vindo!!!#</div>;
 }
 
 // export default function Home() {
