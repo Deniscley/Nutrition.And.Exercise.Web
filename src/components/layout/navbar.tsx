@@ -10,7 +10,13 @@ export default function Navbar() {
     <nav>
       <div className="container nav__container">
         <Link href="./homePage">
-          <Image src="/logoNav.png" width={320} height={95} alt="Logo" />
+          <Image
+            src="/logoNav.png"
+            width={320}
+            height={95}
+            alt="Logo"
+            priority={true}
+          />
         </Link>
         <Routes />
         <button className="nav__toggle-btn">
