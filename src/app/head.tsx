@@ -1,17 +1,24 @@
-export default function Head() {
+import Head from "next/head";
+
+function IndexPage() {
   return (
-    <>
-      <title>Denis Laureano - Nutrition and Exercise</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="description"
-        content="Bem-vindo(a) a melhor plataforma para sua saúde e qualidade de vida!"
-      />
-      <meta property="og:type" content="website" />
-      <meta
-        property="og:title"
-        content="Denis Laureano - Nutrition and Exercise"
-      />
-    </>
+    <div>
+      <Head>
+        <title>Denis Laureano - Nutrição e Exercício</title>
+        <meta
+          property="og:title"
+          content="Denis Laureano - Nutrição e Exercício"
+          key="title"
+        />
+      </Head>
+      <Head>
+        <meta property="og:type" content="website" key="type" />
+      </Head>
+      <p>
+        Bem-vindo(a) a melhor plataforma para sua saúde e qualidade de vida!
+      </p>
+    </div>
   );
 }
+
+export default IndexPage;
