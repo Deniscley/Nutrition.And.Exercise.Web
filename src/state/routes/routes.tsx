@@ -4,25 +4,25 @@ export default function Routes() {
   return (
     <ul className="nav_links">
       <li>
-        <Link href="/">Home</Link>
+        <Link href="/">Página inicial</Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="/about">Sobre</Link>
       </li>
       <li>
-        <Link href="/contact">Contact</Link>
+        <Link href="/contact">Contato</Link>
       </li>
       <li>
-        <Link href="/gallery">Gallery</Link>
+        <Link href="/gallery">Galeria</Link>
       </li>
       <li>
-        <Link href="/plans">Plans</Link>
+        <Link href="/plans">Planos</Link>
       </li>
       <li>
-        <Link href="/trainers">Trainers</Link>
+        <Link href="/trainers">Treinos</Link>
       </li>
       <li>
-        <Link href="/notFound">NotFound</Link>
+        <Link href="/notFound">Não encontrado</Link>
       </li>
     </ul>
   );
