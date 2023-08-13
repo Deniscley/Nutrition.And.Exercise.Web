@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Routes() {
   return (
-    <ul className="nav_links">
+    <ul>
       <li>
         <Link href="/">Página inicial</Link>
       </li>
