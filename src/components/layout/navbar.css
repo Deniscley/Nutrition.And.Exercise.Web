@@ -1,5 +1,5 @@
 nav {
-  height: 5rem;
+  height: 6rem;
   width: 100vw;
   background: var(--color-primary);
   display: grid;
@@ -10,7 +10,25 @@ nav {
   z-index: 99;
 }
 
+/* Só aparece em telas médias e pequenas */
+.nav__toggle-btn {
+  display: none;
+}
+
 .nav__container {
   height: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 7rem;
+}
+
+.nav__links {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
 }

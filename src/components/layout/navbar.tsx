@@ -9,11 +9,11 @@ export default function Navbar() {
   return (
     <nav>
       <div className="container nav__container">
-        <Link href="./homePage">
+        <Link href="/" className="logo">
           <Image
             src="/logoNav.png"
-            width={320}
-            height={95}
+            width={280}
+            height={90}
             alt="Logo"
             priority={true}
           />
