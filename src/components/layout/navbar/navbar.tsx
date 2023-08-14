@@ -19,9 +19,9 @@ export default function Navbar() {
       <div className="container nav__container">
         <Link href="/" className="logo">
           <Image
-            src="/logo.png"
-            width={222}
-            height={58}
+            src="/logoNavBar.png"
+            width={235}
+            height={55}
             alt="Logo"
             priority={true}
           />
