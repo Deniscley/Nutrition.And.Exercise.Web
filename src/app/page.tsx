@@ -1,8 +1,12 @@
-import Header from "@/components/layout/header/header";
+import MainHeader from "@/components/layout/mainHeader/mainHeader";
 import React from "react";
 
 export default function Home() {
-  return <Header />;
+  return (
+    <>
+      <MainHeader />
+    </>
+  );
 }
 
 // export default function Home() {

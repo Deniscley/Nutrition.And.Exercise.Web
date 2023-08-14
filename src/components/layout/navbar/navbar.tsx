@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="container nav__container">
-        <Link href="/" className="logo">
+        <Link href="/" className="logo" onClick={() => setIsNavShowing(false)}>
           <Image
             src="/logoNavBar.png"
             width={235}
