@@ -1,5 +1,5 @@
 nav {
-  height: 6rem;
+  height: 5rem;
   width: 100vw;
   background: var(--color-primary);
   display: grid;
@@ -48,8 +48,8 @@ nav {
 .active-nav::after {
   content: "";
   display: block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   background: var(--color-primary);
   position: absolute;
   left: calc(50% - 0.6rem);
