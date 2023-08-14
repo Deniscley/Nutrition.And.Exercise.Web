@@ -1,7 +1,8 @@
+import Header from "@/components/layout/header/header";
 import React from "react";
 
 export default function Home() {
-  return <div>#Seja bem vindo!!!#</div>;
+  return <Header />;
 }
 
 // export default function Home() {
