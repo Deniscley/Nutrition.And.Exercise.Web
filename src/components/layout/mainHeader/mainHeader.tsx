@@ -24,7 +24,8 @@ export default function MainHeader() {
             <Image
               src={headerImage}
               alt="Main Header Image"
-              // priority={true}
+              width={550}
+              height={624}
             />
           </div>
         </div>
