@@ -38,7 +38,8 @@ nav {
 }
 
 .nav__links a:hover {
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+  color: var(--color-tertiary);
 }
 
 .active-nav {
@@ -96,27 +97,33 @@ nav {
   }
 
   .nav__links li:nth-child(2) {
-    animation-delay: 200ms;
+    /* animation-delay: 200ms; */
+    animation-delay: 100ms;
   }
 
   .nav__links li:nth-child(3) {
-    animation-delay: 400ms;
+    /* animation-delay: 400ms; */
+    animation-delay: 300ms;
   }
 
   .nav__links li:nth-child(4) {
-    animation-delay: 600ms;
+    /* animation-delay: 600ms; */
+    animation-delay: 500ms;
   }
 
   .nav__links li:nth-child(5) {
-    animation-delay: 800ms;
+    /* animation-delay: 800ms; */
+    animation-delay: 700ms;
   }
 
   .nav__links li:nth-child(6) {
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
+    animation-delay: 0.8s;
   }
 
   .nav__links li:nth-child(7) {
-    animation-delay: 1.2s;
+    /* animation-delay: 1.2s; */
+    animation-delay: 1s;
   }
 
   @keyframes navAnimation {

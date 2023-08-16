@@ -38,7 +38,7 @@ body {
   line-height: 1.7;
   overflow-x: hidden;
   background: var(--color-gray-600);
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .container {
@@ -84,7 +84,8 @@ img {
 }
 
 .btn:hover {
-  background: var(--color-secondary);
+  /* background: var(--color-secondary); */
+  background: var(--color-tertiary);
   color: var(--color-gray-600);
 }
 
@@ -127,7 +128,8 @@ img {
 
 .main__header-left h4 {
   margin-bottom: 1rem;
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+  color: var(--color-tertiary);
   font-weight: 400;
 }
 
@@ -145,7 +147,8 @@ img {
 .main__header-circle {
   width: 30rem;
   height: 35rem;
-  background: linear-gradient(75deg, var(--color-secondary), transparent);
+  /* background: linear-gradient(75deg, var(--color-secondary), transparent); */
+  background: linear-gradient(75deg, var(--color-tertiary), transparent);
   border-radius: 50% 10% 27% 0;
   position: absolute;
   transition: var(--transition);
