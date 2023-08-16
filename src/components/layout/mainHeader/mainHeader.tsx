@@ -8,14 +8,14 @@ export default function MainHeader() {
     <header className="main__header">
       <div className="container main__header-container">
         <div className="main__header-left">
-          <h4>#100DaysOfWorkOut</h4>
+          <h4>#100 Days Of WorkOut</h4>
           <h1>Join The Legends Of The Fitness World</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             recusandae ipsa commodi dolore quis officiis!
           </p>
           <Link href="/planos" className="btn lg">
-            Get Started
+            Iniciar
           </Link>
         </div>
         <div className="container main__header-right">
