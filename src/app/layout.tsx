@@ -1,8 +1,10 @@
 "use client";
+import "bootstrap/dist/css/bootstrap.css";
 import "../styles/globals.css";
 import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import Navbar from "@/components/layout/navbar/navbar";
+import CarouselFade from "@/components/layout/carouselFade/carouselFade";
 
 export const metadata: Metadata = {
   title: "Denis Laureano - Nutrição e Exercício",
@@ -28,6 +30,7 @@ export default function RootLayout({
     >
       <body suppressHydrationWarning={true}>
         <Navbar />
+        <CarouselFade />
         {children}
       </body>
     </html>

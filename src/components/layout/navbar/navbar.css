@@ -10,6 +10,16 @@ nav {
   z-index: 99;
 }
 
+.show__nav {
+  display: none;
+  padding-top: 1rem;
+}
+
+.hide__nav {
+  display: none;
+  padding-top: 1rem;
+}
+
 /* Só aparece em telas médias e pequenas */
 .nav__toggle-btn {
   display: none;
@@ -34,11 +44,11 @@ nav {
 }
 
 .nav__links a {
+  text-decoration: none;
   transition: var(--transition);
 }
 
 .nav__links a:hover {
-  /* color: var(--color-secondary); */
   color: var(--color-tertiary);
 }
 
@@ -143,10 +153,12 @@ nav {
   }
 
   .show__nav {
+    padding-top: 0rem;
     display: flex;
   }
 
   .hide__nav {
+    padding-top: 0rem;
     display: none;
   }
 }
