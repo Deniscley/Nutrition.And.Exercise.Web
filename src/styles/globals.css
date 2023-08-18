@@ -84,7 +84,6 @@ img {
 }
 
 .btn:hover {
-  /* background: var(--color-secondary); */
   background: var(--color-tertiary);
   color: var(--color-gray-600);
 }
@@ -123,12 +122,12 @@ img {
 }
 
 .main__header-left {
-  margin-top: -3rem;
+  /* margin-top: -3rem; */
+  margin-top: -15rem;
 }
 
 .main__header-left h4 {
   margin-bottom: 1rem;
-  /* color: var(--color-secondary); */
   color: var(--color-tertiary);
   font-weight: 400;
 }
@@ -147,7 +146,6 @@ img {
 .main__header-circle {
   width: 30rem;
   height: 39rem;
-  /* background: linear-gradient(75deg, var(--color-secondary), transparent); */
   background: linear-gradient(75deg, var(--color-tertiary), transparent);
   border-radius: 50% 10% 24% 0;
   position: absolute;
