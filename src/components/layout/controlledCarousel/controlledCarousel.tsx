@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Image from "next/image";
 
-function CarouselFade() {
+function ControlledCarousel() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex: number) => {
@@ -56,4 +55,4 @@ function CarouselFade() {
   );
 }
 
-export default CarouselFade;
+export default ControlledCarousel;

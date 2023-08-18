@@ -1,5 +1,6 @@
 import MainHeader from "@/components/layout/mainHeader/mainHeader";
 import Programs from "@/components/layout/programs/programs";
+import Values from "@/components/layout/values/values";
 import React from "react";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <MainHeader />
       <Programs />
+      <Values />
     </>
   );
 }

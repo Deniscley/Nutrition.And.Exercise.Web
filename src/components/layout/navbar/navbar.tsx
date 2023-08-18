@@ -31,7 +31,7 @@ export default function Navbar() {
         >
           {links.map(({ name, path }, index) => {
             return (
-              <li>
+              <li key={index}>
                 <Link
                   href={path}
                   className={isActive === path ? activeNav : ""}

@@ -1,0 +1,22 @@
+.programs {
+  margin-top: 4rem;
+}
+
+.programs__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.programs__grogram a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.programs__grogram:hover a {
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
+}
