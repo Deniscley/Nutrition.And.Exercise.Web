@@ -16,7 +16,7 @@ function ControlledCarousel() {
           className="d-block w-100"
           // width={1500}
           height={600}
-          alt="Loghgho"
+          alt="Logo 1"
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -29,7 +29,7 @@ function ControlledCarousel() {
           className="d-block w-100"
           // width={1500}
           height={600}
-          alt="Loghggo"
+          alt="Logo 2"
         />
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -42,7 +42,7 @@ function ControlledCarousel() {
           className="d-block w-100"
           // width={1500}
           height={600}
-          alt="ghg"
+          alt="Logo 3"
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>

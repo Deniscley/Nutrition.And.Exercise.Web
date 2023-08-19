@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import headerImage from "../../../assets/images/morgan-petroski.png";
+import "./mainHeader.css";
 
 export default function MainHeader() {
   return (
@@ -19,7 +20,7 @@ export default function MainHeader() {
           </Link>
         </div>
         <div className="container main__header-right">
-          <div className="main__header-circle"></div>
+          <div className="main__header-background-image"></div>
           <div className="main__header-image">
             <Image
               src={headerImage}
