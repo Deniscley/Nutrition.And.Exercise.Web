@@ -30,7 +30,8 @@
     "types.d.ts",
     ".next/types/**/*.ts",
     "__tests__/page.test.tsx",
-    "src/state/routes/routes.tsx"
+    "src/state/routes/routes.tsx",
+    "src/components/ui/faq"
   ],
   "exclude": ["node_modules"]
 }
