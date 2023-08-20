@@ -1,0 +1,18 @@
+.faq {
+  background: var(--color-gray-500);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq__icon {
+  background: transparent;
+  color: var(--color-gray-100);
+  font-size: 1.5rem;
+}
