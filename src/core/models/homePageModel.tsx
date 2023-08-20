@@ -6,5 +6,5 @@ export type SectionHeadModel = {
 
 export type CardModel = {
   className: string;
-  children: string;
+  children: any;
 };
