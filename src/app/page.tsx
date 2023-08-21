@@ -1,4 +1,5 @@
 import FAQs from "@/components/layout/faqs/faqs";
+import Footer from "@/components/layout/footer/footer";
 import MainHeader from "@/components/layout/mainHeader/mainHeader";
 import Programs from "@/components/layout/programs/programs";
 import Testimonials from "@/components/layout/testimonials/testimonials";
@@ -13,6 +14,7 @@ export default function Home() {
       <Values />
       <FAQs />
       <Testimonials />
+      <Footer />
     </>
   );
 }
