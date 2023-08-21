@@ -13,11 +13,11 @@ export default function Values() {
       <div className="container values__container">
         <div className="values__left">
           <div className="values__image">
-            <Image src={Imagge} alt="Values Image" width={620} height={725} />
+            <Image src={Imagge} alt="Values Image" width={560} height={725} />
           </div>
         </div>
         <div className="values__right">
-          <SectionHead icon={<GiCutDiamond />} title="Values" />
+          <SectionHead icon={<GiCutDiamond />} title="Values" className="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime
             veniam, quibusdam aspernatur, in culpa architecto, illo eligendi

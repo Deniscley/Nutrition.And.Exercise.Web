@@ -1,6 +1,7 @@
 import FAQs from "@/components/layout/faqs/faqs";
 import MainHeader from "@/components/layout/mainHeader/mainHeader";
 import Programs from "@/components/layout/programs/programs";
+import Testimonials from "@/components/layout/testimonials/testimonials";
 import Values from "@/components/layout/values/values";
 import React from "react";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Programs />
       <Values />
       <FAQs />
+      <Testimonials />
     </>
   );
 }
