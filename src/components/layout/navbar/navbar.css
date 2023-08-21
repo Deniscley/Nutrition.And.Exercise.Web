@@ -35,6 +35,7 @@ nav {
 
 .logo {
   width: 7rem;
+  display: block;
 }
 
 .nav__links {
