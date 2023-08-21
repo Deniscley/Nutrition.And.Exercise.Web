@@ -1,18 +1,24 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { FaqModel } from "../../../core/models/homePageModel";
-import { AiOutlinePlus } from "react-icons/ai";
+import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import "./faq.css";
 
 export default function FAQ({ question, answer }: FaqModel) {
+  const [isAnswerShowing, setIsAnswerShowing] = useState(false);
+
   return (
-    <article className="faq">
+    <article
+      className="faq"
+      onClick={() => setIsAnswerShowing((prev) => !prev)}
+    >
       <div>
         <h4>{question}</h4>
         <button className="faq__icon">
-          <AiOutlinePlus />
+          {isAnswerShowing ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </div>
-      <p>{answer}</p>
+      {isAnswerShowing && <p>{answer}</p>}
     </article>
   );
 }

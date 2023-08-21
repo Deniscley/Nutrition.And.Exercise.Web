@@ -1,6 +1,7 @@
 export type SectionHeadModel = {
   title: string;
   icon: JSX.Element;
+  className: string | undefined;
 };
 
 export type CardModel = {

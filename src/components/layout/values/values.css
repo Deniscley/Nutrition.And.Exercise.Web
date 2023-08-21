@@ -5,7 +5,7 @@
 }
 
 .values__image {
-  filter: saturate(0.6);
+  filter: saturate(0.4);
   transition: var(--transition);
 }
 
@@ -13,8 +13,13 @@
   filter: saturate(1);
 }
 
+.values__right {
+  position: relative;
+}
+
 .values__right > p {
   margin: 1.5rem 0 5rem;
+  position: relative;
 }
 
 .values__wrapper {

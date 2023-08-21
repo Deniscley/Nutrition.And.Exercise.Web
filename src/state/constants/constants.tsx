@@ -96,3 +96,46 @@ export const faqs = [
       "Consectetur adipisicing elit. No ipsa dolorem, rem consequatur eum omnis ex, fuga temporaribus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Ana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
+    job: "Médica",
+    avatar: require("../../../public/Ana.jpg"),
+  },
+  {
+    id: 2,
+    name: "Carla Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
+    job: "Student",
+    avatar: require("../../../public/Carla.jpg"),
+  },
+  {
+    id: 3,
+    name: "José Quist",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
+    job: "Engenheiro",
+    avatar: require("../../../public/Jose.jpg"),
+  },
+  {
+    id: 4,
+    name: "Maria Lavoe",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
+    job: "Professora",
+    avatar: require("../../../public/Maria.jpg"),
+  },
+  {
+    id: 5,
+    name: "Pedro Yaa Dankwa",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
+    job: "Dentista",
+    avatar: require("../../../public/Pedro.jpg"),
+  },
+];
