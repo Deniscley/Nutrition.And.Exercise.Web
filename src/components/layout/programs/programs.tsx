@@ -10,7 +10,7 @@ export default function Programs() {
   return (
     <section className="programs">
       <div className="container programs__container">
-        <SectionHead title="Programas" icon={<FaCrown />} />
+        <SectionHead title="Programas" icon={<FaCrown />} className="" />
         <div className="programs__wrapper">
           {programs.map(({ id, icon, title, info, path }) => {
             return (
