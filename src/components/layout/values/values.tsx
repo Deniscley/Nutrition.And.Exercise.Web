@@ -17,7 +17,7 @@ export default function Values() {
           </div>
         </div>
         <div className="values__right">
-          <SectionHead icon={<GiCutDiamond />} title="Values" className="" />
+          <SectionHead icon={<GiCutDiamond />} title="Valores" className="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime
             veniam, quibusdam aspernatur, in culpa architecto, illo eligendi

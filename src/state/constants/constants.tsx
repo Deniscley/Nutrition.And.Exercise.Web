@@ -35,25 +35,25 @@ export const values = [
   {
     id: 1,
     icon: <SiOpenaigym />,
-    title: "Value One",
+    title: "Valor Um",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
   {
     id: 2,
     icon: <SiOpenaigym />,
-    title: "Value Two",
+    title: "Valor Dois",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
   {
     id: 3,
     icon: <SiOpenaigym />,
-    title: "Value Three",
+    title: "Valor Três",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
-    title: "Value Four",
+    title: "Valor Quatro",
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
   },
 ];
