@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import "./footer.css";
@@ -37,7 +37,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <FaFacebook />
+              <FaFacebookF />
             </a>
             <a
               href="https://youtube.com/"
@@ -57,11 +57,11 @@ export default function Footer() {
         </article>
         <article>
           <h4>Permalinks</h4>
-          <Link href="/sobre"></Link>
-          <Link href="/galeria"></Link>
-          <Link href="/planos"></Link>
-          <Link href="/treinos"></Link>
-          <Link href="/contato"></Link>
+          <Link href="/sobre">Sobre</Link>
+          <Link href="/galeria">Galeria</Link>
+          <Link href="/planos">Planos</Link>
+          <Link href="/treinos">Treinos</Link>
+          <Link href="/contato">Contato</Link>
         </article>
         <article>
           <h4>Insights</h4>
