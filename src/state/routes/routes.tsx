@@ -1,6 +1,6 @@
 export const links = [
   {
-    name: "Página inicial",
+    name: "Início",
     path: "/",
   },
   {

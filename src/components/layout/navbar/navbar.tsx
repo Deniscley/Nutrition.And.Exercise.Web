@@ -37,7 +37,7 @@ export default function Navbar() {
                   className={isActive === path ? activeNav : ""}
                   onClick={() => setIsNavShowing((prev) => !prev)}
                 >
-                  {name}
+                  <div>{name}</div>
                 </Link>
               </li>
             );
