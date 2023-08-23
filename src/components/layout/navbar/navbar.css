@@ -40,13 +40,18 @@ nav {
 
 .nav__links {
   display: flex;
-  gap: 3.5rem;
+  /* gap: 3.5rem; */
+  gap: 2rem;
   align-items: center;
 }
 
 .nav__links a {
   text-decoration: none;
   transition: var(--transition);
+}
+
+.nav__links div {
+  margin: 0 0.5rem 0 0.5rem;
 }
 
 .nav__links a:hover {
@@ -144,6 +149,7 @@ nav {
     animation-delay: 1s;
   }
 
+  /*Ver regra para quando extender o navegador sem fechar o menu do mobile*/
   @keyframes navAnimation {
     to {
       transform: rotatex(0);
@@ -157,7 +163,8 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 1rem 5rem 1rem 5rem;
+    /* padding: 1rem 5rem 1rem 5rem; */
+    padding: 0rem 5rem 0rem 5rem;
   }
 
   .show__nav {
