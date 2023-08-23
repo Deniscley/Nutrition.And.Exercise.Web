@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container footer__container">
         <article>
           <Link href="/" className="logo">
-            <Image
+            <img
               src="/logoSimbolo.png"
               alt="Footer Logo"
               width={90}
