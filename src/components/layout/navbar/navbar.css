@@ -13,7 +13,6 @@ nav {
 .show__nav {
   display: none;
   padding-top: 1rem;
-  /* padding-top: 1.8rem; */
 }
 
 .hide__nav {
@@ -41,7 +40,6 @@ nav {
 
 .nav__links {
   display: flex;
-  /* gap: 3.5rem; */
   gap: 2rem;
   align-items: center;
 }
@@ -75,7 +73,6 @@ nav {
   height: 1.2rem;
   background: var(--color-primary);
   position: absolute;
-  /* margin-top: 0.45rem; */
   margin-top: 2.15rem;
   border-bottom: 0.15rem solid var(--color-tertiary);
 }

@@ -38,3 +38,33 @@
   position: absolute;
   top: -1.5rem;
 }
+
+/* MEDIA QUERIES (medium screens) */
+@media screen and (max-width: 1024px) {
+  .values__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .values__wrapper {
+    gap: 4rem 3rem;
+  }
+
+  .values__image {
+    display: none;
+  }
+}
+
+/* MEDIA QUERIES (small screens) */
+@media screen and (max-width: 600px) {
+  .values__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .card.values__value {
+    width: 84%;
+    margin-inline: auto;
+  }
+}

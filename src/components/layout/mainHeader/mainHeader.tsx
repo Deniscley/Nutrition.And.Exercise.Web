@@ -1,7 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
-import headerImage from "../../../assets/images/morgan-petroski.png";
 import "./mainHeader.css";
 
 export default function MainHeader() {
