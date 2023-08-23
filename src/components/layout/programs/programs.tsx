@@ -14,7 +14,6 @@ export default function Programs() {
         <div className="programs__wrapper">
           {programs.map(({ id, icon, title, info, path }) => {
             return (
-              // <div>Hi</div>
               <Card className="programs__program" key={id}>
                 <span>{icon}</span>
                 <h4>{title}</h4>

@@ -25,7 +25,7 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="/li-sun.jpg"
+          src="/spencer-stone.jpg"
           className="d-block w-100"
           // width={1500}
           height={600}

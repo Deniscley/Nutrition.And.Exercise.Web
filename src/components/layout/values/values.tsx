@@ -1,10 +1,8 @@
 import React from "react";
-import Imagge from "../../../assets/images/pexels-breakingpic-3301.jpg";
 import SectionHead from "@/components/ui/sectionHead/sectionHead";
 import { GiCutDiamond } from "react-icons/gi";
 import { values } from "../../../state/constants/constants";
 import Card from "../../ui/card/card";
-import Image from "next/image";
 import "./values.css";
 
 export default function Values() {
@@ -16,10 +14,8 @@ export default function Values() {
             <img
               src="/pexels-breakingpic-3301.jpg"
               alt="Values Image"
-              // width={560}
-              // height={725}
-              width={510}
-              height={795}
+              width={560}
+              height={725}
             />
           </div>
         </div>
