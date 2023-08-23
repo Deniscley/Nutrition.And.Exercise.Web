@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
@@ -56,7 +55,7 @@ export default function Footer() {
           </div>
         </article>
         <article>
-          <h4>Permalinks</h4>
+          <h4>Explore</h4>
           <Link href="/sobre">Sobre</Link>
           <Link href="/galeria">Galeria</Link>
           <Link href="/planos">Planos</Link>
@@ -64,17 +63,13 @@ export default function Footer() {
           <Link href="/contato">Contato</Link>
         </article>
         <article>
-          <h4>Insights</h4>
-          {/* <Link href="/sobre"></Link>
-          <Link href="/galeria"></Link>
-          <Link href="/planos"></Link>
-          <Link href="/treinos"></Link> */}
+          <h4>Sobre nós</h4>
           <Link href="/s">FAQs</Link>
         </article>
         <article>
-          <h4>Get In Touch</h4>
-          <Link href="/contato">Contact Us</Link>
-          <Link href="/treinos">Support</Link>
+          <h4>Suporte</h4>
+          <Link href="/contato">Contato</Link>
+          <Link href="/treinos">Treinos</Link>
         </article>
       </div>
       <div className="footer__copyright">
