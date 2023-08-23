@@ -64,3 +64,30 @@ footer {
   border-top: 2px solid var(--color-primary-variant);
   margin-top: 5rem;
 }
+
+/* MEDIA QUERIES (medium screens) */
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-top: 7rem;
+  }
+
+  .footer__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer__container article {
+    align-items: center;
+  }
+
+  .footer__container article p {
+    text-align: center;
+  }
+}
