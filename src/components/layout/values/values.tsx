@@ -13,7 +13,14 @@ export default function Values() {
       <div className="container values__container">
         <div className="values__left">
           <div className="values__image">
-            <Image src={Imagge} alt="Values Image" width={560} height={725} />
+            <img
+              src="/pexels-breakingpic-3301.jpg"
+              alt="Values Image"
+              // width={560}
+              // height={725}
+              width={510}
+              height={795}
+            />
           </div>
         </div>
         <div className="values__right">
