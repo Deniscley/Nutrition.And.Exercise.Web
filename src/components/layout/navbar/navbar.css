@@ -12,7 +12,8 @@ nav {
 
 .show__nav {
   display: none;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
+  padding-top: 1.8rem;
 }
 
 .hide__nav {
