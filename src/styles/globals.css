@@ -31,6 +31,7 @@
   --transition: all 500ms ease;
 }
 
+/*ESTILOS GERAIS*/
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--color-gray-200);
