@@ -108,7 +108,7 @@ nav {
     right: 0;
     flex-direction: column;
     gap: 0;
-    perspective: 400px;
+    perspective: 25rem;
   }
 
   .active-nav,

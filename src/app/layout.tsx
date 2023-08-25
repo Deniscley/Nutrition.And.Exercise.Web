@@ -4,8 +4,7 @@ import "../styles/globals.css";
 import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import Navbar from "@/components/layout/navbar/navbar";
-import ControlledCarousel from "@/components/layout/carouselHeader/carousel-header";
-import WhatsappButton from "@/components/layout/whatsappButton/whatsapp-button";
+import CarouselHeader from "@/components/layout/carouselHeader/carousel-header";
 import Footer from "@/components/layout/footer/footer";
 
 export const metadata: Metadata = {
@@ -32,7 +31,7 @@ export default function RootLayout({
     >
       <body suppressHydrationWarning={true}>
         <Navbar />
-        <ControlledCarousel />
+        <CarouselHeader />
         {children}
         <Footer />
       </body>

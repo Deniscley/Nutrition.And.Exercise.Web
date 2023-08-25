@@ -75,7 +75,7 @@ export default function AboutTemplate() {
         <div className="container about__mission-container">
           <div className="about__section-image">
             <img
-              src="/lifestyle-change.jpg"
+              src="/pexels-breakingpic.jpg"
               alt="Our Mission Image"
               width={1000}
               height={480}
