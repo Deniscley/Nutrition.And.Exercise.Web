@@ -7,8 +7,8 @@ export default function MainHeader() {
     <header className="main__header">
       <div className="container main__header-container">
         <div className="main__header-left">
-          <h4>#100 Days Of WorkOut</h4>
-          <h1>Join The Legends Of The Fitness World</h1>
+          <h4>Saúde e Qualidade de Vida</h4>
+          <h1>Junte-se a nós em uma jornada mais saudável e fitness</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             recusandae ipsa commodi dolore quis officiis!

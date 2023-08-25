@@ -139,3 +139,12 @@ export const testimonials = [
     avatar: require("../../../public/Pedro.jpg"),
   },
 ];
+
+// export const = [
+//   {
+//     id: 1,
+//     image: traniner4,
+//     job: 'Body  Composition Trainer',
+//     socials: ['https://instagram.com/', 'https://facebook.com/', 'https://linkedin.com/']
+//   },
+// ];
