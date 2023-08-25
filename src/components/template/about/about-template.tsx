@@ -3,7 +3,7 @@ import "./about-template.css";
 export default function AboutTemplate() {
   return (
     <>
-      <section className="about__story">
+      <div className="about__story">
         <div className="container about__story-container">
           <div className="about__section-image">
             <img
@@ -35,9 +35,9 @@ export default function AboutTemplate() {
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className="about__vision">
+      <div className="about__vision">
         <div className="container about__vision-container">
           <div className="about__section-content">
             <h1>Nossa Visão</h1>
@@ -69,13 +69,13 @@ export default function AboutTemplate() {
             />
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className="about__mission">
+      <div className="about__mission">
         <div className="container about__mission-container">
           <div className="about__section-image">
             <img
-              src="/jesper-aggergaard.jpg"
+              src="/lifestyle-change.jpg"
               alt="Our Mission Image"
               width={1000}
               height={480}
@@ -103,7 +103,7 @@ export default function AboutTemplate() {
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }

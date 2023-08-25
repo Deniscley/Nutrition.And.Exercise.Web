@@ -1,5 +1,5 @@
 .about__story {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .about__section-image {
@@ -7,7 +7,7 @@
   overflow: hidden;
   transform: skew(15deg);
   transition: var(--transition);
-  margin-bottom: 1rem; /*Caso não seja necesário deve-se remover*/
+  margin-bottom: 1rem;
 }
 
 .about__section-image:nth-child(2) {
