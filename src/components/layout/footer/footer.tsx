@@ -65,7 +65,7 @@ export default function Footer() {
         </article>
         <article>
           <h4>Sobre nós</h4>
-          <Link href="/s">FAQs</Link>
+          <Link href="/s">Perguntas Frequentes</Link>
         </article>
         <article>
           <h4>Suporte</h4>
