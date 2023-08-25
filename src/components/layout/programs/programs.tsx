@@ -1,4 +1,4 @@
-import SectionHead from "@/components/ui/sectionHead/sectionHead";
+import SectionHead from "@/components/ui/sectionHead/section-head";
 import { FaCrown } from "react-icons/fa";
 import { AiFillCaretRight } from "react-icons/ai";
 import { programs } from "../../../state/constants/constants";

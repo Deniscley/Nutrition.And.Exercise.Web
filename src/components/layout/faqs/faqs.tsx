@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHead from "@/components/ui/sectionHead/sectionHead";
+import SectionHead from "@/components/ui/sectionHead/section-head";
 import { FaQuestion } from "react-icons/fa";
 import { faqs } from "../../../state/constants/constants";
 import FAQ from "../../ui/faq/faq";

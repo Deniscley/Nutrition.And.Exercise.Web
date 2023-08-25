@@ -40,7 +40,6 @@ nav {
 
 .nav__links {
   display: flex;
-  /* gap: 3.5rem; */
   gap: 2rem;
   align-items: center;
 }
@@ -76,6 +75,7 @@ nav {
   position: absolute;
   margin-top: 2.15rem;
   border-bottom: 0.15rem solid var(--color-tertiary);
+  animation-delay: 0s; /*Verificar se realmente será útil*/
 }
 
 /* .active-nav::after {
@@ -151,7 +151,6 @@ nav {
     animation-delay: 1.2s;
   }
 
-  /*Ver regra para quando extender o navegador sem fechar o menu do mobile*/
   @keyframes navAnimation {
     to {
       transform: rotatex(0);
