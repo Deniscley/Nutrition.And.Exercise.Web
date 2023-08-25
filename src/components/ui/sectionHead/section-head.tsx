@@ -1,5 +1,5 @@
 import { SectionHeadModel } from "../../../core/models/homePageModel";
-import "./sectionHead.css";
+import "./section-head.css";
 
 const SectionHead = ({ title, icon, className }: SectionHeadModel) => {
   return (
