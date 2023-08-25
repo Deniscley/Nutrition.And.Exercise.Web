@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import "./footer.css";
+import WhatsappButton from "../whatsappButton/whatsapp-button";
 
 export default function Footer() {
   return (
@@ -78,6 +79,7 @@ export default function Footer() {
           Reservados
         </small>
       </div>
+      <WhatsappButton />
     </footer>
   );
 }
