@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-function ControlledCarousel() {
+function carouselHeader() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex: number) => {
@@ -55,4 +55,4 @@ function ControlledCarousel() {
   );
 }
 
-export default ControlledCarousel;
+export default carouselHeader;

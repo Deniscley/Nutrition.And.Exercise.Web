@@ -12,10 +12,10 @@ export default function Values() {
         <div className="values__left">
           <div className="values__image">
             <img
-              src="/pexels-breakingpic-3301.jpg"
+              src="/lifestyle-changee.png"
               alt="Values Image"
-              width={560}
-              height={725}
+              width={650}
+              height={470}
             />
           </div>
         </div>
