@@ -5,6 +5,8 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import Navbar from "@/components/layout/navbar/navbar";
 import ControlledCarousel from "@/components/layout/carouselHeader/carousel-header";
+import WhatsappButton from "@/components/layout/whatsappButton/whatsapp-button";
+import Footer from "@/components/layout/footer/footer";
 
 export const metadata: Metadata = {
   title: "Denis Laureano - Nutrição e Exercício",
@@ -32,6 +34,7 @@ export default function RootLayout({
         <Navbar />
         <ControlledCarousel />
         {children}
+        <Footer />
       </body>
     </html>
   );
