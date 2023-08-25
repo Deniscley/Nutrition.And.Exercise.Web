@@ -1,9 +1,9 @@
 import FAQs from "@/components/layout/faqs/faqs";
-import Footer from "@/components/layout/footer/footer";
 import MainHeader from "@/components/layout/mainHeader/main-header";
 import Programs from "@/components/layout/programs/programs";
 import Testimonials from "@/components/layout/testimonials/testimonials";
 import Values from "@/components/layout/values/values";
+import WhatsappButton from "@/components/layout/whatsappButton/whatsapp-button";
 import React from "react";
 
 export default function Home() {
@@ -14,7 +14,6 @@ export default function Home() {
       <Values />
       <FAQs />
       <Testimonials />
-      <Footer />
     </>
   );
 }
