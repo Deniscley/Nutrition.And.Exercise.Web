@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaFacebookSquare } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
 import "./navbar.css";
 import { links } from "../../../state/routes/routes";
+import { BsInstagram } from "react-icons/bs";
+import { ImYoutube2 } from "react-icons/im";
 
 export default function Navbar() {
   const isActive = usePathname();
@@ -40,6 +42,30 @@ export default function Navbar() {
             );
           })}
         </ul>
+
+        <div className="nav__socials">
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <BsInstagram />
+          </a>
+          <a
+            href="https://facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FaFacebookSquare />
+          </a>
+          <a
+            href="https://youtube.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <ImYoutube2 />
+          </a>
+        </div>
         <button
           className="nav__toggle-btn"
           onClick={() => setIsNavShowing((prev) => !prev)}

@@ -90,6 +90,15 @@ nav {
   margin-top: 0.9rem;
 } */
 
+.nav__socials a {
+  margin: 0 0.3rem 0 0.3rem;
+  transition: 0.5s;
+}
+
+.nav__socials a:hover {
+  color: var(--color-tertiary);
+}
+
 @media screen and (max-width: 1024px) {
   .nav__toggle-btn {
     display: inline-block;
@@ -109,6 +118,14 @@ nav {
     flex-direction: column;
     gap: 0;
     perspective: 25rem;
+  }
+
+  .nav__socials {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .active-nav,
