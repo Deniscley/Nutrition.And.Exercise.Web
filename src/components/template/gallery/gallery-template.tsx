@@ -1,7 +1,7 @@
 import "./gallery-template.css";
 
 export default function GalleryTemplate() {
-  const galleryLength = 8;
+  const galleryLength = 9;
   const images = [];
 
   for (let i = 1; i <= galleryLength; i++) {
