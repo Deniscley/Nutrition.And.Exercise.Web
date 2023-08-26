@@ -1,5 +1,5 @@
-import React from "react";
+import PlansTemplate from "@/components/template/plans/plans-template";
 
 export default function Plans() {
-  return <div>#Plans#</div>;
+  return <PlansTemplate />;
 }

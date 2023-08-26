@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import SectionHead from "@/components/ui/sectionHead/section-head";
 import { ImQuotesLeft } from "react-icons/im";
 import Card from "../../ui/card/card";

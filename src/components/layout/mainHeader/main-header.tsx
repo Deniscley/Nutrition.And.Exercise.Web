@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import "./main-header.css";
 
 export default function MainHeader() {
