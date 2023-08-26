@@ -10,8 +10,12 @@ export default function GlobalError({
   return (
     <html>
       <body>
-        <h2>Algo deu errado!</h2>
-        <button onClick={() => reset()}>Tente novamente</button>
+        <div className="container notfound-error__container">
+          <h2>Algo deu errado!</h2>
+          <button className="btn" onClick={() => reset()}>
+            Tente novamente
+          </button>
+        </div>
       </body>
     </html>
   );

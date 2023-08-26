@@ -1,6 +1,12 @@
 .gallery {
   margin-top: 3rem;
 }
+
+.gallery__h1 {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 .gallery__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

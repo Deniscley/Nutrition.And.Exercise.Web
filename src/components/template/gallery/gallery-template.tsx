@@ -11,6 +11,7 @@ export default function GalleryTemplate() {
   return (
     <>
       <div className="gallery">
+        <h1 className="gallery gallery__h1">Nossa Galeria</h1>
         <div className="container gallery__container">
           {images.map(({ id }, index) => {
             return (

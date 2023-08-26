@@ -1,9 +1,13 @@
 .contact {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .contact__container {
   display: grid;
   place-items: center;
+}
+
+.contact__h1 {
+  margin-bottom: 3rem;
 }
 
 .contact__wrapper {

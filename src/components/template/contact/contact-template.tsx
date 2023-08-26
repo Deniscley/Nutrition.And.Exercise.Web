@@ -8,7 +8,7 @@ export default function ContactTemplate() {
     <>
       <div className="contact">
         <div className="container contact__container">
-          <h1 style={{ marginBottom: "3rem" }}>Fale conosco</h1>
+          <h1 className="contact contact__h1">Fale conosco</h1>
           <div className="contact__wrapper">
             <a
               href="mailto:support@xxx.com"

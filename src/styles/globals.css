@@ -103,12 +103,12 @@ img {
   background: var(--color-gray-100);
 }
 
-.notfound__container {
+.notfound-error__container {
   text-align: center;
   padding-top: 8rem;
 }
 
-.notfound__container .btn {
+.notfound-error__container .btn {
   margin-top: 2rem;
   display: inline-block;
 }
