@@ -1,4 +1,3 @@
-import React from "react";
 import SectionHead from "@/components/ui/sectionHead/section-head";
 import { GiCutDiamond } from "react-icons/gi";
 import { values } from "../../../state/constants/constants";

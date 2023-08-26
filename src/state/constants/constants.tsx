@@ -1,3 +1,6 @@
+import { AiOutlineYoutube } from "react-icons/ai";
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 import { SiOpenaigym } from "react-icons/si";
 
 export const programs = [
@@ -140,11 +143,76 @@ export const testimonials = [
   },
 ];
 
-// export const = [
-//   {
-//     id: 1,
-//     image: traniner4,
-//     job: 'Body  Composition Trainer',
-//     socials: ['https://instagram.com/', 'https://facebook.com/', 'https://linkedin.com/']
-//   },
-// ];
+export const plans = [
+  {
+    id: 1,
+    name: "Pacote Prata",
+    desc: "Este pacote é perfeito para iniciantes que precisam de ajuda constante",
+    price: 29.99,
+    features: [
+      { feature: "Primeiro recurso", available: true },
+      { feature: "Segundo recurso", available: true },
+      { feature: "terceiro recurso", available: true },
+      { feature: "Quarto recurso", available: true },
+      { feature: "Quinto recurso Plus", available: false },
+      { feature: "Sexto recurso", available: false },
+      { feature: "Sétimo recurso Plus", available: false },
+      { feature: "Oitavo recurso", available: false },
+      { feature: "Nono recurso", available: false },
+      { feature: "Décimo recurso", available: false },
+      { feature: "Décimo primeiro recurso", available: false },
+    ],
+  },
+  {
+    id: 2,
+    name: "Pacote Ouro",
+    desc: "Este é o pacote perfeito para iniciantes que sabem o que estão fazendo",
+    price: 49.99,
+    features: [
+      { feature: "Primeiro recurso", available: true },
+      { feature: "Segundo recurso", available: true },
+      { feature: "terceiro recurso", available: true },
+      { feature: "Quarto recurso", available: true },
+      { feature: "Quinto recurso Plus", available: true },
+      { feature: "Sexto recurso", available: true },
+      { feature: "Sétimo recurso Plus", available: true },
+      { feature: "Oitavo recurso", available: false },
+      { feature: "Nono recurso", available: false },
+      { feature: "Décimo recurso", available: false },
+      { feature: "Décimo primeiro recurso", available: false },
+    ],
+  },
+  {
+    id: 3,
+    name: "Pacote Platina",
+    desc: "Este pacote é perfeito para pessoas ocupadas que precisam de atendimento domiciliar",
+    price: 89.99,
+    features: [
+      { feature: "Primeiro recurso", available: true },
+      { feature: "Segundo recurso", available: true },
+      { feature: "terceiro recurso", available: true },
+      { feature: "Quarto recurso", available: true },
+      { feature: "Quinto recurso Plus", available: true },
+      { feature: "Sexto recurso", available: true },
+      { feature: "Sétimo recurso Plus", available: true },
+      { feature: "Oitavo recurso", available: true },
+      { feature: "Nono recurso", available: true },
+      { feature: "Décimo recurso", available: true },
+      { feature: "Décimo primeiro recurso", available: true },
+    ],
+  },
+];
+
+export const trainers = [
+  {
+    id: 1,
+    image: 1,
+    name: "Denis Laureano",
+    job: "Personal Trainer",
+    socials: [
+      { icon: <BsInstagram />, link: "https://instagram.com/" },
+      { icon: <AiOutlineYoutube />, link: "https://youtube.com/" },
+      { icon: <FaFacebook />, link: "https://facebook.com/" },
+    ],
+  },
+];
