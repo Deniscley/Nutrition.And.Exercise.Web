@@ -19,8 +19,8 @@ function carouselHeader() {
           alt="Logo 1"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Denis Laureano - Nutrição e Exercício</h3>
+          <p>O corpo atinge o que a mente acredita.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,8 +32,8 @@ function carouselHeader() {
           alt="Logo 2"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Denis Laureano - Nutrição e Exercício</h3>
+          <p>Apaixone-se pelo processo e os resultados aparecerão.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,10 +45,8 @@ function carouselHeader() {
           alt="Logo 3"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Denis Laureano - Nutrição e Exercício</h3>
+          <p>Não é o peso que você perde, mas a vida que você ganha.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
