@@ -17,7 +17,7 @@ export default function GalleryTemplate() {
             return (
               <article key={index}>
                 <img
-                  src={`/gallery/${id}.jpg`}
+                  src={`/images/gallery/${id}.jpg`}
                   alt={`Gallery Image ${id}`}
                   width={460}
                   height={350}
