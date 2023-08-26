@@ -21,7 +21,7 @@ export default function MainHeader() {
           <div className="main__header-background-image"></div>
           <div className="main__header-image">
             <img
-              src="/morgan-petroski.png"
+              src="/images/morgan-petroski.png"
               alt="Main Header Image"
               width={550}
               height={750}

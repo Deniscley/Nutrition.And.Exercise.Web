@@ -12,7 +12,7 @@ function carouselHeader() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          src="/anastase-maragos.jpg"
+          src="/images/anastase-maragos.jpg"
           className="d-block w-100"
           // width={1500}
           height={600}
@@ -25,7 +25,7 @@ function carouselHeader() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="/spencer-stone.jpg"
+          src="/images/spencer-stone.jpg"
           className="d-block w-100"
           // width={1500}
           height={600}
@@ -38,7 +38,7 @@ function carouselHeader() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="/pexels-andrea-piacquadio-917660.jpg"
+          src="/images/pexels-andrea-piacquadio-917660.jpg"
           className="d-block w-100"
           // width={1500}
           height={600}

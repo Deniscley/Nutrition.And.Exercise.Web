@@ -17,7 +17,12 @@ export default function Navbar() {
     <nav>
       <div className="container nav__container">
         <Link href="/" className="logo" onClick={() => setIsNavShowing(false)}>
-          <img src="/logoNavBar.png" width={240} height={57} alt="Nav Logo" />
+          <img
+            src="/images/logoNavBar.png"
+            width={240}
+            height={57}
+            alt="Nav Logo"
+          />
         </Link>
         <ul
           className={`nav__links ${isNavShowing ? "show__nav" : "hide__nav"}`}
