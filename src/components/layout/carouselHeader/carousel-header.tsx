@@ -49,6 +49,19 @@ function carouselHeader() {
           <p>Não é o peso que você perde, mas a vida que você ganha.</p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src="/images/sven-miekklk.jpg"
+          className="d-block w-100"
+          // width={1500}
+          height={600}
+          alt="Logo 4"
+        />
+        <Carousel.Caption>
+          <h3>Denis Laureano - Nutrição e Exercício</h3>
+          <p>A persistência realiza o impossível.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }
