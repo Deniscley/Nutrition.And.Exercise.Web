@@ -16,15 +16,18 @@ export default function Error({
 
   return (
     <div>
-      <h2>Algo deu errado!</h2>
-      <button
-        onClick={
-          // Attempt to recover by trying to re-render the segment
-          () => reset()
-        }
-      >
-        Tente novamente
-      </button>
+      <div className="container notfound-error__container">
+        <h2>Algo deu errado!</h2>
+        <button
+          className="btn"
+          onClick={
+            // Attempt to recover by trying to re-render the segment
+            () => reset()
+          }
+        >
+          Tente novamente
+        </button>
+      </div>
     </div>
   );
 }
