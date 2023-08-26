@@ -104,7 +104,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
     job: "Médica",
-    avatar: require("../../../public/Ana.jpg"),
+    avatar: require("../../../public/images/Ana.jpg"),
   },
   {
     id: 2,
@@ -112,7 +112,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
     job: "Student",
-    avatar: require("../../../public/Carla.jpg"),
+    avatar: require("../../../public/images/Carla.jpg"),
   },
   {
     id: 3,
@@ -120,7 +120,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
     job: "Engenheiro",
-    avatar: require("../../../public/Jose.jpg"),
+    avatar: require("../../../public/images/Jose.jpg"),
   },
   {
     id: 4,
@@ -128,7 +128,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
     job: "Professora",
-    avatar: require("../../../public/Maria.jpg"),
+    avatar: require("../../../public/images/Maria.jpg"),
   },
   {
     id: 5,
@@ -136,7 +136,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi deserunt cupiditate iste ducimus porro numquam laborum asperiores optio inventore quos quo culpa dicta, error commodi? Repellat placeat nobis corporis.",
     job: "Dentista",
-    avatar: require("../../../public/Pedro.jpg"),
+    avatar: require("../../../public/images/Pedro.jpg"),
   },
 ];
 

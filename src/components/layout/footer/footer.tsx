@@ -13,7 +13,7 @@ export default function Footer() {
         <article>
           <Link href="/" className="logo">
             <img
-              src="/logoSimbolo.png"
+              src="/images/logoSimbolo.png"
               alt="Footer Logo"
               width={90}
               height={90}
