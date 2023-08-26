@@ -5,7 +5,7 @@ export default function WhatsappButton() {
     <div className="whatsapp-button">
       <a href="https://wa.me/55" target="_blank">
         <img
-          src="/whatsapp.png"
+          src="/images/whatsapp.png"
           width={55}
           alt="Fale Conosco pelo WhatsApp"
           title="Fale Conosco pelo WhatsApp"

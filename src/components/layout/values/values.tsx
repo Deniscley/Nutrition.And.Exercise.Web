@@ -12,7 +12,7 @@ export default function Values() {
         <div className="values__left">
           <div className="values__image">
             <img
-              src="/lifestyle-changee.png"
+              src="/images/lifestyle-changee.png"
               alt="Values Image"
               width={650}
               height={470}
