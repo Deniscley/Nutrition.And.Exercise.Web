@@ -25,7 +25,7 @@
 @media screen and (max-width: 1024) {
   .gallery__container {
     grid-template-columns: 1fr 1fr;
-    gap: 2re;
+    gap: 2rem;
   }
 
   .gallery__container article {

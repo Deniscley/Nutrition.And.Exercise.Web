@@ -16,8 +16,8 @@ export default function TrainersTemplate() {
                   <img
                     src={`/images/trainers/${image}.jpg`}
                     alt={name}
-                    width={600}
-                    height={600}
+                    width={300}
+                    height={300}
                   />
                 </div>
                 <h3>{name}</h3>
