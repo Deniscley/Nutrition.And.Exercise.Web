@@ -62,6 +62,19 @@ function carouselHeader() {
           <p>A persistência realiza o impossível.</p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src="/images/vegetables.jpg"
+          className="d-block w-100"
+          // width={1500}
+          height={600}
+          alt="Logo 4"
+        />
+        <Carousel.Caption>
+          <h3>Denis Laureano - Nutrição e Exercício</h3>
+          <p>O sucesso é a soma de pequenos esforços repetidos dia após dia.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }
