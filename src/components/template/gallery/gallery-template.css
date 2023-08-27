@@ -22,7 +22,7 @@
 }
 
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .gallery__container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
