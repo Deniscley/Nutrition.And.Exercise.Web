@@ -60,17 +60,17 @@ export default function Footer() {
           <Link href="/sobre">Sobre</Link>
           <Link href="/galeria">Galeria</Link>
           <Link href="/planos">Planos</Link>
-          <Link href="/treinos">Treinos</Link>
+          <Link href="/treinos">Treinador</Link>
           <Link href="/contato">Contato</Link>
         </article>
         <article>
           <h4>Sobre nós</h4>
-          <Link href="/s">Perguntas Frequentes</Link>
+          <Link href="/sobre">Sobre</Link>
+          <Link href="/treinos">Treinador</Link>
         </article>
         <article>
           <h4>Suporte</h4>
           <Link href="/contato">Contato</Link>
-          <Link href="/treinos">Treinos</Link>
         </article>
       </div>
       <div className="footer__copyright">

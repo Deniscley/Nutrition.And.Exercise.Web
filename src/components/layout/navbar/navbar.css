@@ -75,7 +75,6 @@ nav {
   position: absolute;
   margin-top: 2.15rem;
   border-bottom: 0.15rem solid var(--color-tertiary);
-  animation-delay: 0s; /*Verificar se realmente será útil*/
 }
 
 /* .active-nav::after {
