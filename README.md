@@ -2,7 +2,7 @@
 
 Projeto voltado para divulgação e venda de serviço no setor de nutrição e atividade física.
 
-![Logo](https://imguh.com/image/ICwlR)
+![Logo](https://drive.google.com/file/d/1bMj3KHu0W1uB-ZnWA_F23td3eioIZUeO/view?usp=drive_link)
 
 ## Autores
 
