@@ -33,11 +33,11 @@
 
 /*ESTILOS GERAIS*/
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: var(--font-montserrat), sans-serif;
   color: var(--color-gray-200);
   line-height: 1.7;
   overflow-x: hidden;
-  /* background: var(--color-gray-600); */
   background: var(--color-gray-600) url(../../public/images/bg_texture.png); /*Textura Png Imagens*/
   margin-top: 5rem;
 }
