@@ -7,7 +7,7 @@ export default function AboutTemplate() {
         <div className="container about__story-container">
           <div className="about__section-image">
             <img
-              src="/images/about/pexels-alesia-kozik.jpg"
+              src="/images/pexels-alesia-kozik.jpg"
               width={1000}
               height={480}
               alt="Our Story Image"
@@ -62,7 +62,7 @@ export default function AboutTemplate() {
           </div>
           <div className="about__section-image">
             <img
-              src="/images/about/ivan-samkov.jpg"
+              src="/images/ivan-samkov.jpg"
               alt="Our Vision Image"
               width={1000}
               height={480}
@@ -75,7 +75,7 @@ export default function AboutTemplate() {
         <div className="container about__mission-container">
           <div className="about__section-image">
             <img
-              src="/images/about/pexels-breakingpic.jpg"
+              src="/images/pexels-breakingpic.jpg"
               alt="Our Mission Image"
               width={1000}
               height={480}
