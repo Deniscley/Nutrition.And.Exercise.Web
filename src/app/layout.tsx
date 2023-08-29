@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/globals.css";
 import type { Metadata } from "next";
-import { montserrat } from "@/styles/fonts";
+import { montserrat } from "@/assets/fonts/fonts";
 import Navbar from "@/components/layout/navbar/navbar";
 import CarouselHeader from "@/components/layout/carouselHeader/carousel-header";
 import Footer from "@/components/layout/footer/footer";
