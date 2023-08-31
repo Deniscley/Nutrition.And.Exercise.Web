@@ -77,18 +77,6 @@ nav {
   border-bottom: 0.15rem solid var(--color-tertiary);
 }
 
-/* .active-nav::after {
-  content: "";
-  display: block;
-  width: 1.2rem;
-  height: 1.2rem;
-  background: var(--color-primary);
-  position: absolute;
-  left: calc(50% - 0.6rem);
-  transform: rotate(45deg);
-  margin-top: 0.9rem;
-} */
-
 .nav__socials a {
   margin: 0 0.3rem 0 0.3rem;
   transition: 0.5s;

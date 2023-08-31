@@ -28,8 +28,9 @@
     gap: 2rem;
   }
 
-  .gallery__container article {
-    border: 0;
+  .gallery__container img {
+    width: 35rem;
+    height: 23rem;
   }
 }
 
@@ -38,5 +39,10 @@
   .gallery__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .gallery__container img {
+    width: 27rem;
+    height: 18rem;
   }
 }
