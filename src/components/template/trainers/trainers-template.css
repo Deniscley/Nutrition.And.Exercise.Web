@@ -61,6 +61,11 @@
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+
+  .trainer__img img {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 /* MEDIA QUERIES (small screens) */
@@ -75,7 +80,7 @@
     margin-inline: auto;
   }
 
-  .trainer__img {
+  .trainer__img img {
     width: 15rem;
     height: 15rem;
   }
