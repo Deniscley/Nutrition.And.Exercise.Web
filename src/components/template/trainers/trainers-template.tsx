@@ -7,7 +7,7 @@ export default function TrainersTemplate() {
   return (
     <>
       <div className="trainers">
-        <h1 className="trainers trainers__h1">Sobre Mim</h1>
+        <h1 className="trainers__h1">Sobre Mim</h1>
         <div className="container trainers__container">
           {trainers.map(({ id, image, name, job, socials }) => {
             return (
@@ -16,8 +16,8 @@ export default function TrainersTemplate() {
                   <img
                     src={`/images/trainers/${image}.jpg`}
                     alt={name}
-                    width={300}
-                    height={300}
+                    width={450}
+                    height={450}
                   />
                 </div>
                 <h3>{name}</h3>
