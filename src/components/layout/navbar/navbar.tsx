@@ -7,6 +7,7 @@ import "./navbar.css";
 import { links } from "../../../state/routes/routes";
 import { BsInstagram } from "react-icons/bs";
 import { ImYoutube2 } from "react-icons/im";
+import LightMode from "../lightMode/light-mode";
 
 export default function Navbar() {
   const isActive = usePathname();
@@ -66,6 +67,11 @@ export default function Navbar() {
             <ImYoutube2 />
           </a>
         </div>
+
+        <div>
+          <LightMode />
+        </div>
+
         <button
           className="nav__toggle-btn"
           onClick={() => setIsNavShowing((prev) => !prev)}

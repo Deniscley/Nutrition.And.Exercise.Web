@@ -1,0 +1,28 @@
+.light-mode__switch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#input-color-switch {
+  display: none;
+}
+
+.light-mode__text {
+  margin-right: 1rem;
+}
+
+.light-mode__text h5 {
+  color: var(--color-gray-100);
+  font-size: 1rem;
+}
+
+.light-mode__color-icon {
+  color: var(--color-gray-100);
+  margin-bottom: 0.5rem;
+  transition: 0.5s;
+}
+
+.light-mode__color-icon a:hover {
+  color: var(--color-tertiary);
+}
