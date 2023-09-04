@@ -1,3 +1,7 @@
+.light-mode {
+  margin-top: 1rem;
+}
+
 .light-mode__switch {
   display: flex;
   justify-content: flex-end;

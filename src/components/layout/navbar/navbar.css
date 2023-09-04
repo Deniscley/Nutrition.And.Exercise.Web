@@ -181,3 +181,7 @@ nav {
     display: none;
   }
 }
+
+.light-mode__color-icon div:hover {
+  color: var(--color-tertiary);
+}

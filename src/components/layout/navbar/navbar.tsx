@@ -68,7 +68,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        <div>
+        <div className="light-mode__color-icon">
           <LightMode />
         </div>
 
