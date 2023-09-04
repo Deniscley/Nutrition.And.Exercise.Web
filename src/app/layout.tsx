@@ -27,7 +27,6 @@ export default function RootLayout({
       <body suppressHydrationWarning={true}>
         <Navbar />
         <CarouselHeader />
-        {/* <LightMode /> */}
         {children}
         <Footer />
       </body>
