@@ -14,6 +14,3 @@ export default function WhatsappButton() {
     </div>
   );
 }
-
-/*https://www.youtube.com/watch?v=h5y9yTMGuSA*/
-/*https://faq.whatsapp.com/5913398998672934/?locale=pt_BR*/
