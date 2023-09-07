@@ -1,5 +1,5 @@
 .contact {
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 .contact__container {
   display: grid;
@@ -8,6 +8,7 @@
 
 .contact__h1 {
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .contact__wrapper {
