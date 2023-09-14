@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import "./light-mode.css";
 import { BsMoon, BsSun } from "react-icons/bs";
 
@@ -21,7 +21,7 @@ export default function LightMode() {
     setTheme(lightTheme);
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const selectedTheme = localStorage.getItem("selectedTheme");
 
     setTheme(selectedTheme);
