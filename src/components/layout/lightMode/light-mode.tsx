@@ -41,9 +41,6 @@ export default function LightMode() {
   return (
     <div className="light-mode">
       <div className="light-mode__switch">
-        {/* <div className="light-mode__text">
-          {theme === "dark" ? <h5>Modo Claro</h5> : <h5>Modo Escuro</h5>}
-        </div> */}
         <input type="checkbox" id="input-color-switch" onChange={toggleTheme} />
         <label
           htmlFor="input-color-switch"
